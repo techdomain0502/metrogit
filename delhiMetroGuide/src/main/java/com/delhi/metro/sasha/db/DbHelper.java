@@ -961,6 +961,7 @@ public class DbHelper extends SQLiteOpenHelper{
 						length = "-1";
 					Edge edge = new Edge("",new Vertex(source, source),new Vertex(destination, destination), 1,length);
 					list.add(edge);
+					LogUtils.LOGD("edgetest",edge.toString());
 				}while(result.moveToNext());
 			}
 			}catch (SQLiteException e) {

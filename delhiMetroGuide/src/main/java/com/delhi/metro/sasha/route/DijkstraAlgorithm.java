@@ -2,6 +2,7 @@ package com.delhi.metro.sasha.route;
 
 import com.delhi.metro.sasha.db.DataFeeder;
 import com.delhi.metro.sasha.gui.MetroApplication;
+import com.delhi.metro.sasha.utils.LogUtils;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -49,6 +50,8 @@ public class DijkstraAlgorithm {
 		while (unSettledNodes.size() > 0) {
 			Vertex node = getMinimum(unSettledNodes);
 			settledNodes.add(node);
+			LogUtils.LOGD("dijk", node.toString());
+
 			unSettledNodes.remove(node);
 			findMinimalDistances(node);
 		}
