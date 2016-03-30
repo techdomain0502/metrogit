@@ -142,7 +142,6 @@ public class MainTabActivity extends FragmentActivity implements
 			editor.putString("version", String.valueOf(appVersion));
 			File f = new File("/data/data/com.delhi.metro.sasha/databases/metro.db");
 			if(f.exists()) {
-				Log.d("sachin","deleteing");
 				f.delete();
 				editor.putBoolean("copied", false);
 			}
@@ -313,7 +312,6 @@ public class MainTabActivity extends FragmentActivity implements
 				this.mTabHost.newTabSpec("Timings").setIndicator(getTabIndicator(mTabHost.getContext(), R.string.tab_lasttrain,android.R.drawable.btn_minus)));
 		// MainTabActivity.AddTab(this, this.mTabHost,
 		// this.mTabHost.newTabSpec("Nearby").setIndicator("Nearby Metro"));
-
 		mTabHost.setOnTabChangedListener(this);
 	}
 

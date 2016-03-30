@@ -6,7 +6,7 @@ import com.delhi.metro.sasha.BuildConfig;
 
 public class LogUtils {
     public static void LOGD(final String tag, String message) {
-        if (/*BuildConfig.DEBUG*/true) {
+        if (BuildConfig.DEBUG) {
             Log.d(tag, message);
         }
     }
