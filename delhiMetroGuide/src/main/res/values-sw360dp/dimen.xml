@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="station_header_textsize">10dp</dimen>
+    <dimen name="parking_below_padding">60dp</dimen>
+    <dimen name="parking_header_textsize">25dp</dimen>
+    <dimen name="parking_content_textsize">19dp</dimen>
+    <dimen name="stop_list_below_padding">45dp</dimen>
+    <dimen name="fare_textSize">19dp</dimen>
+    <dimen name="note">16dp</dimen>
+    <dimen name="journeydetail_textSize">22dp</dimen>
+    <dimen name="detail_textSize">20dp</dimen>
+    <dimen name="fare_view_padding">5dp</dimen>
+    <dimen name="tab_dimen_padding">0dp</dimen>
+    <dimen name="line_textsize">16dp</dimen>
+    <dimen name="interchange_textsize">16dp</dimen>
+    <dimen name="svoice_title_welcomepage_textsize">43dp</dimen>
+    <dimen name="svoice_title_welcomepage_paddintop">97dp</dimen>
+    <dimen name="search_station_textsize">20dp</dimen>
+    <dimen name="actionBarHeight">70dp</dimen>
+    
+   <!-- route,fare,time layout margin -->
+   <dimen name="header_marginTop">30dp</dimen>
+   <dimen name="buttonTopMargin">7dp</dimen>
+   <dimen name="normalfare">0dp</dimen>
+    
+</resources>

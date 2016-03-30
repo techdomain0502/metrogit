@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+     <string name="sde">उद्गम और गंतव्य खाली है</string>
+     <string name="sds">उद्गम - गंतव्य एक ही है</string>
+      <string name="cs">उद्गम चुने</string>
+       <string name="cd">गंतव्य चुने</string>
+       
+<string name="langchange">भाषा परिवर्तन</string>    
+       
+    <string name="release">प्रसारित संस्करण:</string>
+     <string name="developer">विकासक</string>
+    <string name="dedicated1">इस एप्लिकेशन 
+        को हम सर्वशक्तिमान, अपने माता पिता और दोस्तों को समर्पित करते है. हमने पूरी कोशिश की है कि आपको दी गयी जानकारी , दिल्ली मेट्रो रेल कारपोरेशन के अनुसार
+      एक दम सही हो. आधार के लिए हमने चुना है:  </string>
+    <string name="dedicated2">कोई सुझाव के लिए आप हमें निम्न अड्रेस पर मेल कर सकते है: </string> 
+        <string name="programmer">सौरभ, शोभित, सचिन</string>
+    
+    <string name="journey_header">यात्रा विवरण:</string>
+    <string name="journeyTime">यात्रा समय: %1s (लगभग.)</string>
+    <string name="noOfStations">स्टेशन: %1s</string>
+    <string name="noOfInterchange">अदला-बदली: %1s</string>
+    <string name="enter_station_hint">स्टेशन का नाम डालें</string>
+    <string name="language_menu">भाषा</string>
+    <string name="language">भाषा</string>
+    <string name="press_start">Press Start to use Delhi Metro application.</string>
+    <string name="welcome">स्वागत</string>
+    <string name="Start">शरू करने के लिए टैप करें</string>
+    <string name="app_name">Delhi Metro Guide</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="first">First</string>
+    <string name="last">Last</string>
+    <string name="prepend">Prepend</string>
+    <string name="title_activity_main_tab">MainTabActivity</string>
+    <string name="helpheader0">स्मार्ट यात्री  बने!</string>
+    <string name="helpheader1"><html><b><u>5 स्मार्ट कारण स्मार्ट कार्ड चयन के!!</u></b></html>"\n"</string>
+    <string name="helpheader2"><html><b><u>अपना स्मार्ट कार्ड चुनें</u></b></html>"\n"</string>
+    <string name="helpheader3"><html><b><u>हेल्पलाइन नंबर!!</u></b></html>"\n"</string>
+    <string name="reference">www.delhimetrorail.com</string>
+    <string name="suggestion">techdomain0502@gmail.com</string>
+    <string name="version">1.1.20150627</string>
+    <string name="route_details">मार्ग/किराया  विवरण</string>
+    <string name="show_route">मार्ग/किराया  देखे</string>
+    <string name="switch_button">स्टेशन अदल-बदल </string>
+    <string name="fare_details">किराया विवरण</string>
+    <string name="time_details">प्रथम-अंतिम गाड़ी विवरण</string>
+    <string name="smartcardFare">स्मार्ट कार्ड रु. 0</string>
+    <string name="fare_rs_0">सामान्य किराया:रु. 0</string>
+    <string name="smartnote_fare">*ध्यान दें: 10% छूट के लिए स्मार्ट कार्ड का उपयोग करें.</string>
+    <string name="normalfare">सामान्य किराया: रु. %1s</string>
+    <string name="smartfare">स्मार्ट कार्ड किराया: रु. %1s</string>
+    <string name="to">toHindi</string>
+    <string name="first_time">प्रथम गाड़ी:NA</string>
+    <string name="last_time">अंतिम गाड़ी:NA</string>
+    <string name="first_time_code">प्रथम गाड़ी</string>
+    <string name="last_time_code">अंतिम गाड़ी</string>
+    
+    <string name="choose_source_station">उद्‍गम स्टेशन</string>
+    <string name="choose_destination_station">गंतव्य स्टेशन</string>
+    <string name="fare_label">कार,मोटर-साइकिल,साइकिल किराया रु. में</string>
+    <string name="daily_upto_6_hrs">दैनिक किराया 6 घंटे तक</string>
+    <string name="daily_upto_12_hrs">दैनिक किराया 12 घंटे तक</string>
+    <string name="daily_more_than_12_hrs">दैनिक किराया 12 घंटे से अधिक</string>
+    <string name="monthly">मासिक</string>
+    <string name="fare_625">625</string>
+    <string name="daily_night_extra">दैनिक रात्रि अतिरिक्त शुल्क</string>
+    <string name="fare_25">25</string>
+    <string name="fare_15">15</string>
+    <string name="fare_10">10</string>
+    <string name="monthly_night_extra">मासिक रात्रि अतिरिक्त शुल्क</string>
+    <string name="fare_5">5</string>
+    <string name="fare_8">8</string>
+    <string name="fare_12">12</string>
+    <string name="fare_300">300</string>
+    <string name="fare_2">2</string>
+    <string name="fare_3">3</string>
+    <string name="fare_4">4</string>
+    <string name="fare_30">30</string>
+    <string name="settings">सेटिंग</string>
+    <string name="tab_route">मार्ग/किराया</string>
+    <string name="tab_fare">किराया</string>
+    <string name="tab_lasttrain">टाइम-टेबल</string>
+    <string name="source_station">उद्‍गम स्टेशन चुनें</string>
+    <string name="destination_station">गंतव्य स्टेशन चुनें</string>
+    <string name="last_source_station">लाइन चुनें</string>
+
+    <string-array name="nearby_places">
+        <item>Choose nearby places type</item>
+        <item>Cafe</item>
+        <item>Hospitals</item>
+        <item>Restaurant</item>
+    </string-array>
+    <string-array name="menu_settings">
+        <item>मेट्रो सहायता</item>
+        <item>मेट्रो नक्शा</item>
+        <item>पार्किंग किराया</item>
+        <item>विषय में</item>
+        <item>अपडेट के लिये</item>
+        <item>गूगल पर सकारात्मक टिप्पणी</item>
+    </string-array>
+
+    
+    
+     <string name="violet">बैंगनी</string>
+    <string name="indigo">इंडिगो</string>
+    <string name="blue">ब्लू</string>
+    <string name="green">हरी</string>
+    <string name="yellow">पीली</string>
+    <string name="orange">संतरी</string>
+    <string name="red">लाल</string>
+    <string name="grey">grey</string>
+     <string name="line">लाइन</string>
+   <string name="junction">(जंक्शन)</string>
+    <string name="changehere">यहाँ बदले</string>
+    <string name="keliyebadle">के लिए बदले</string>
+    
+    <string name="help">मेट्रो सहायता</string>
+    <string name="about">विषय में</string>
+    <string name="map">मेट्रो नक्शा</string>
+    <string name="parking">पार्किंग किराया</string>
+    <string name="search">स्टेशन खोज</string>
+    
+    
+    <string name="general">सामान्य</string>
+    <string name="metro_help" >मेट्रो सहायता</string>
+    <string name="metro_help_sum" >आपकी मेट्रो सहायता कुंजी</string>
+    <string name="metro_map" >मेट्रो नक्शा</string>
+    <string name="metro_map_sum" >ऑफ़लाइन दिल्ली मेट्रो का नक्शा</string>
+    <string name="metro_parking" >मेट्रो पार्किंग किराया</string>
+    <string name="metro_parking_sum" >जनरल पार्किंग दरों की सूची</string>
+    <string name="app " >एप्लीकेशन</string>
+    <string name="about_header" >विषय में</string>
+    <string name="about_sum" >आइये एक - दूसरे को जानें</string>
+    <string name="update_header" >एप्लीकेशन अपडेट</string>
+    <string name="update_sum" >आपको रखे अपडेटेड</string>
+    <string name="like_header" >गूगल पर सराहे</string>
+    <string name="like_header_sum" >अगर हम अधिकारी हो, तो सराहे</string>
+    
+    
+    
+</resources>

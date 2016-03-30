@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="help_smartcard0">
+        <item>1. How to use Smart Card - Entry/Exit:At entry, hold your card close to the machine for gates to
+            open. Do the same at destination station for exit"\n"</item>
+        <item>2. Entry/Exit Mismatch - Every entry into the station must be followed by an exit from the destination
+            station. In case of mismatch, charges will be collected as per DMRC rules."\n"</item>
+        <item>3. Maximum period of stay - The maximum stay permissible in the Metro station is 170 minutes if entry/exit is 
+            from different stations.Within the same station, it is 20 minutes. In case of overstaying
+            beyond permissible time(except tourist card) Penalty of Rs 10 per hour subject to maximum
+            of Rs 50 will be charged."\n"</item>
+        <item>4. Keep the card safe - Please donot damage the Smart Card. No Refund
+            is gauranteed on damaged cards."\n"</item>
+    </string-array>
+    <string-array name="help_smartcard1">
+        <item>1. Save Money - Get 10% discount on each journey performed using smart card."\n"</item>
+        <item>2. Save Time - No need to stand in queues for purchasing tokens"\n"</item>
+        <item>3. Gain Freedom - Terminate/extend your journey without preplanning."\n"</item>
+        <item>4. Enjoy Convenience - Board the train till the last minute"\n"</item>
+        <item>5. Be Flexible - Smart Card is Transferable"\n"</item>
+        <item>6. No Documentation - needed for smart card"\n"</item>
+        <item>7. Time taken - to issue smart card is same as token"\n"</item>
+        <item>8. Card is - easily transferable and can be used by anyone"\n"</item>
+    </string-array>
+    <string-array name="help_smartcard2">
+        <item>1. Travel Card - Min Value:150Rs. Max Value:1000Rs for frequent travellers"\n"</item>
+        <item>2. Tourist Card - Value Rs 150 for 1 day, Rs 300 for 3 days"\n"</item>
+        <item>3. Facility to check balance - At every station, ticket reading machines
+            can help you check balance in card"\n"</item>
+        <item>4. Available at -  customercare centre at all stations."\n"</item>
+    </string-array>
+    <string-array name="helpline">
+        <item>1. DMRC - 011 155370"\n"</item>
+        <item>2. CISF SECURITY CONTROL ROOM - 011 22185555"\n"</item>
+        <item>3. DELHI POLICE - 100"\n"</item>
+        <item>4. AMBULANCE - 102 "\n"</item>
+        <item>5. FIRE TENDER - 101"\n"</item>
+        <item>6. WOMEN IN DISTRESS - 1091"\n"</item>
+        <item>7. SENIOR CITIZEN - 1291"\n"</item>
+        <item>8. VIGILANCE - 1064"\n"</item>
+        <item>9. PCR - 100"\n"</item>
+        <item>10. EYES AND EARS - 1090"\n"</item>
+        <item>11. TRAFFIC POLICE - 1095/011 258444444"\n"</item>
+        <item>12. MISSING PERSON - 1094"\n"</item>
+        <item>13. SPECIAL CELL(NORTH EAST) - 1093"\n"</item>
+    </string-array>
+   
+
+</resources>

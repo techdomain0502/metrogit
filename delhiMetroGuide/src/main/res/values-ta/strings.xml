@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    <string name="sde">Source and Destination are Empty</string>
+     <string name="sds">Source - Destination are Same</string>
+      <string name="cs">Choose Source</string>
+       <string name="cd">Choose destination</string>
+       
+    <string name="keliyebadle">के लिए बदले</string>
+      <string name="release">release version:</string>
+ <string name="developer">Developer</string>
+<string name="dedicated1">This app is dedicated to The Almighty,to our parents,to friends.\nWe have tried our level best to keep the data integrity in accordance with Delhi Metro database.\n For reference we have choosen:</string>
+<string name="dedicated2">For suggestions or feedback mail us at:</string>
+    <string name="journey_header">Journey Details:</string>
+    <string name="journeyTime">Travel Time: %1s (approx.)</string>
+    <string name="noOfStations">Stations: %1s</string>
+    <string name="noOfInterchange">InterChange: %1s</string>
+    <string name="enter_station_hint">Enter Station name</string>
+    <string name="language_menu">taLanguage</string>
+    <string name="press_start">Press Start to use Delhi Metro application.</string>
+    <string name="welcome">Welcome</string>
+    <string name="Start">Tap to Start</string>
+    <string name="app_name">Delhi Metro Guide</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="first">First</string>
+    <string name="last">Last</string>
+    <string name="prepend">Prepend</string>
+    <string name="title_activity_main_tab">MainTabActivity</string>
+    <string name="helpheader0">Be a Smart Traveller!</string>
+    <string name="helpheader1"><html><b><u>5 Smart reasons to go for a smart Card!!</u></b></html>"\n"</string>
+    <string name="helpheader2"><html><b><u>Choose Your Smart Card!!</u></b></html>"\n"</string>
+    <string name="helpheader3"><html><b><u>HelpLine Numbers!!</u></b></html>"\n"</string>
+    <string name="reference">www.delhimetrorail.com</string>
+    <string name="suggestion">techdomain0502@gmail.com</string>
+    <string name="version">1.1.20150627</string>
+    <string name="programmer">Saurabh, Shobhit, Sachin</string>
+    <string name="route_details">Route Details</string>
+    <string name="show_route">Show Route</string>
+    <string name="switch_button">Switch Stations</string>
+    <string name="fare_details">Fare Details</string>
+    <string name="time_details">First-Last Train Details</string>
+    <string name="smartcardFare">Smart Card Fare:Rs 0</string>
+    <string name="fare_rs_0">NormalFare:Rs 0</string>
+    <string name="smartnote_fare">*Note: Use smart card to get 10% discount.</string>
+    <string name="normalfare">Normal Fare: Rs %1s</string>
+    <string name="smartfare">SmartCard Fare: Rs %1s</string>
+    <string name="to">to</string>
+    <string name="first_time">First Train:NA</string>
+    <string name="last_time">Last Train:NA</string>
+     <string name="first_time_code">First Train</string>
+    <string name="last_time_code">Last Train</string>
+    
+    <string name="choose_source_station">Choose Source Station</string>
+    <string name="choose_destination_station">Choose Destination Station</string>
+    <string name="fare_label">Fare for Car, Bike and Cycle in Rs.</string>
+    <string name="daily_upto_6_hrs">Daily upto 6 Hrs</string>
+    <string name="daily_upto_12_hrs">Daily upto 12 Hrs</string>
+    <string name="daily_more_than_12_hrs">Daily more than 12 hrs</string>
+    <string name="monthly">Monthly</string>
+    <string name="fare_625">625</string>
+    <string name="daily_night_extra">Daily Night Extra</string>
+    <string name="fare_25">25</string>
+    <string name="fare_15">15</string>
+    <string name="fare_10">10</string>
+    <string name="monthly_night_extra">Monthly Night Extra</string>
+    <string name="fare_5">5</string>
+    <string name="fare_8">8</string>
+    <string name="fare_12">12</string>
+    <string name="fare_300">300</string>
+    <string name="fare_2">2</string>
+    <string name="fare_3">3</string>
+    <string name="fare_4">4</string>
+    <string name="fare_30">30</string>
+    <string name="settings">Settings</string>
+    <string name="language">Change Language</string>
+    <string name="tab_route">Route</string>
+    <string name="tab_fare">Fare</string>
+    <string name="tab_lasttrain">Timings</string>
+    <string name="source_station">Select Source</string>
+    <string name="destination_station">Select Destination</string>
+    <string name="last_source_station">Select Line</string>
+
+    <string-array name="nearby_places">
+        <item>Choose nearby places type</item>
+        <item>Cafe</item>
+        <item>Hospitals</item>
+        <item>Restaurant</item>
+    </string-array>
+    <string-array name="menu_settings">
+        <item>Metro Help</item>
+        <item>Metro Map</item>
+        <item>Parking Rates</item>
+        <item>About</item>
+        <item>Check for Updates</item>
+        <item>Like us on Google</item>
+    </string-array>
+
+   <string name="langchange">Changing language</string>
+    <string name="help">Metro Help</string>
+    <string name="about">About</string>
+    <string name="map">Map</string>
+    <string name="parking">Parking Rates</string>
+    <string name="search">Search Station</string>
+
+    <string name="violet">violet</string>
+    <string name="indigo">indigo</string>
+    <string name="blue">blue</string>
+    <string name="green">green</string>
+    <string name="yellow">yellow</string>
+    <string name="orange">orange</string>
+    <string name="red">red</string>
+    <string name="grey">grey</string>
+    <string name="line">line</string>
+    <string name="junction">(Junction)</string>
+    <string name="changehere">Change here</string>
+    
+</resources>

@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#eeeeee"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/fare_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingStart="10dp"
+            android:text="@string/fare_label"
+            android:textSize="16dp" />
+
+        <RelativeLayout
+            android:id="@+id/car_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fare_label"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:paddingBottom="10dp"
+            android:paddingEnd="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:id="@+id/car_icon"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/car" />
+
+            <LinearLayout
+                android:id="@+id/container1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/car_icon"
+                android:layout_toRightOf="@id/car_icon" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/daily_upto_6_hrs"
+                    android:textSize="@dimen/parking_content_textsize" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fare_10"
+                    android:textSize="@dimen/parking_content_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/container1"
+                android:layout_alignStart="@id/container1"
+                android:layout_below="@+id/container1" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/daily_upto_12_hrs"
+                    android:textSize="@dimen/parking_content_textsize" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fare_15"
+                    android:textSize="@dimen/parking_content_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/container1"
+                android:layout_alignStart="@id/container1"
+                android:layout_below="@+id/container2" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/daily_more_than_12_hrs"
+                    android:textSize="@dimen/parking_content_textsize" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fare_25"
+                    android:textSize="@dimen/parking_content_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/container1"
+                android:layout_alignStart="@id/container1"
+                android:layout_below="@+id/container3" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/monthly"
+                    android:textSize="@dimen/parking_content_textsize" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fare_625"
+                    android:textSize="@dimen/parking_content_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/container1"
+                android:layout_alignStart="@id/container1"
+                android:layout_below="@+id/container4" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/daily_night_extra"
+                    android:textSize="@dimen/parking_content_textsize" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fare_25"
+                    android:textSize="@dimen/parking_content_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/container1"
+                android:layout_alignStart="@id/container1"
+                android:layout_below="@+id/container5" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/monthly_night_extra"
+                    android:textSize="@dimen/parking_content_textsize" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fare_625"
+                    android:textSize="@dimen/parking_content_textsize" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bike_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/car_section"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:paddingBottom="10dp"
+            android:paddingEnd="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:id="@+id/bike_icon"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/bike" />
+
+            <LinearLayout
+                android:id="@+id/container7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/bike_icon"
+                android:layout_toRightOf="@id/bike_icon" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/daily_upto_6_hrs"
+                    android:textSize="@dimen/parking_content_textsize" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fare_5"
+                    android:textSize="@dimen/parking_content_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/container7"
+                android:layout_alignStart="@id/container7"
+                android:layout_below="@+id/container7" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/daily_upto_12_hrs"
+                    android:textSize="@dimen/parking_content_textsize" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fare_8"
+                    android:textSize="@dimen/parking_content_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/container7"
+                android:layout_alignStart="@id/container7"
+                android:layout_below="@+id/container8" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/daily_more_than_12_hrs"
+                    android:textSize="@dimen/parking_content_textsize" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fare_12"
+                    android:textSize="@dimen/parking_content_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/container7"
+                android:layout_alignStart="@id/container7"
+                android:layout_below="@+id/container9" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/monthly"
+                    android:textSize="@dimen/parking_content_textsize" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fare_300"
+                    android:textSize="@dimen/parking_content_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/container7"
+                android:layout_alignStart="@id/container7"
+                android:layout_below="@id/container10" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/daily_night_extra"
+                    android:textSize="@dimen/parking_content_textsize" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fare_12"
+                    android:textSize="@dimen/parking_content_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/container7"
+                android:layout_alignStart="@id/container7"
+                android:layout_below="@+id/container11" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/monthly_night_extra"
+                    android:textSize="@dimen/parking_content_textsize" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fare_300"
+                    android:textSize="@dimen/parking_content_textsize" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/cycle_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bike_section"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:paddingBottom="10dp"
+            android:paddingEnd="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:id="@+id/cycle_icon"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/cycle" />
+
+            <LinearLayout
+                android:id="@+id/container13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/cycle_icon"
+                android:layout_toRightOf="@id/cycle_icon" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/daily_upto_6_hrs"
+                    android:textSize="@dimen/parking_content_textsize" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fare_2"
+                    android:textSize="@dimen/parking_content_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/container13"
+                android:layout_alignStart="@id/container13"
+                android:layout_below="@+id/container13" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/daily_upto_12_hrs"
+                    android:textSize="@dimen/parking_content_textsize" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fare_3"
+                    android:textSize="@dimen/parking_content_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/container13"
+                android:layout_alignStart="@id/container13"
+                android:layout_below="@+id/container14" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/daily_more_than_12_hrs"
+                    android:textSize="@dimen/parking_content_textsize" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fare_4"
+                    android:textSize="@dimen/parking_content_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/container13"
+                android:layout_alignStart="@id/container13"
+                android:layout_below="@+id/container15" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/monthly"
+                    android:textSize="@dimen/parking_content_textsize" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fare_30"
+                    android:textSize="@dimen/parking_content_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/container13"
+                android:layout_alignStart="@id/container13"
+                android:layout_below="@+id/container16" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/daily_night_extra"
+                    android:textSize="@dimen/parking_content_textsize" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fare_4"
+                    android:textSize="@dimen/parking_content_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/container13"
+                android:layout_alignStart="@id/container13"
+                android:layout_below="@+id/container17" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/monthly_night_extra"
+                    android:textSize="@dimen/parking_content_textsize" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fare_30"
+                    android:textSize="@dimen/parking_content_textsize" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+     >
+
+
+
+    <LinearLayout
+        android:id="@+id/title_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" 
+        >
+
+        <TextView
+            android:id="@+id/svoice_title_welcomepage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="@dimen/svoice_title_welcomepage_paddintop"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/svoice_title_welcomepage_textsize"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/welcome_page_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_container" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/stretch_layout_1"
+        android:layout_width="fill_parent"
+        android:layout_height="206dp"
+        android:layout_alignParentBottom="true"
+        android:alpha="0.8"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+</RelativeLayout>

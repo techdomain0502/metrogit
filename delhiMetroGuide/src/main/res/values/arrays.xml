@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="monument">
+        <item>India Gate</item>
+        <item>Qutub Minar</item>
+        <item>Lotus Temple</item>
+        <item>Humayun Tomb</item>
+        <item>Jantar Mantar</item>
+        <item>Red Fort</item>
+        <item>Akshardham</item>
+        <item>Lodi Gardens</item>
+        <item>Gurudwara Bangla Sahib</item>
+        <item>Rashtrapati Bhavan</item>
+        <item>Jama Masjid</item>
+        <item>Chandni Chowk</item>
+        <item>Gurudwara Sis Ganj</item>
+        <item>National Museum , New Delhi</item>
+        <item>Purana Qila</item>
+        <item>Gandhi Smriti</item>
+        <item>Tughlaqabad</item>
+        <item>Raj Ghat</item>
+        <item>ISKCON Temple Delhi</item>
+        <item>LaxmiNarayan Temple</item>
+        <item>Garden of Five Senses</item>
+        <item>Nizamuddin Dargah</item>
+        <item>National Zoological Park, Delhi</item>
+        <item>National Rail Museum, Delhi</item>
+        <item>Agrasen ki Baoli</item>
+        <item>National Sciene Centre ,Delhi</item>
+        <item>Cathedral Church of Redemption</item>
+        <item>YogMaya Temple</item>
+        <item>Khirki Masjid</item>
+        <item>Kalka Mandir, Delhi</item>
+        <item>Nehru memorial museum and library</item>
+        <item>Iron Pillar of Delhi</item>
+        <item>RangMahal</item>
+        <item>Nehru Planetarium</item>
+        <item>Sri Digambar Jain Lal Mandir</item>
+        <item>St. James\' Church</item>
+        <item>Shanti Vana,</item>
+    </string-array>
+
+
+    <string-array name="shop">
+        <item>Dilli Haat\nOpening Hours:Daily from 11am to 10 pm\nWhat to buy:Indian Handicrafts and artifacts</item>
+        <item>Janpath\nOpening Hours:Daily\nWhat to buy:Handicrafts, shoes, paintings, brassware and cheap jewellery</item>
+        <item>Khan market\nOpening Hours:Daily except sundays\nWhat to buy:Books,music,tailored clothes, Ayurvedic food</item>
+        <item>Paharganj\nOpening Hours:Daily until 9pm\nWhat to buy:Clothes,shoes ,jewely,bookds,music, incense</item>
+        <item>Sarojini Nagar\nOpening Hours:Daily except Mnondays\nWhat to buy:Designer clothes, fashion accessories, shoes</item>
+        <item>Chandni Chowk\nOpening Hours:Daily except sundays\nWhat to buy:Fabrics, jewellery , electronic goods</item>
+        <item>Lajpat Nagar(Central Market)\nOpening Hours:Daily except Mondays\nWhat to buy:Indian clothes, shoes, bags, home furnishings</item>
+        <item>SunderNagark\nOpening Hours:Daily except sundays\nWhat to buy:Silver Jewellery, art, textiles, carpets and antiques.</item>
+    </string-array>
+
+    <string-array name="streetfood">
+        <item>Chandni Chowk\nParanthe Wali Gali\nFamous for varities of paranthas</item>
+        <item>Chandni Chowk\nLala Babu Chaat Bhandaar\nFor Authentica chat and Gobi Matar Samosas\n</item>
+        <item>Chandni Chowk\nBishan Swaroop\nFamour for fruit chaat and Aloo Kulla</item>
+        <item>Chandni Chowk\nShree Balaji Chaat Bhandar\nThe Papri chaat is must try</item>
+        <item>Sarojini Nagar\nKhandani Pakode wala\nThe Bread and Paneer pakodas is a must try</item>
+        <item>Sarojini Nagar\nKulcha King\nFamous Amritsari kulche and chole is a must try</item>
+        <item>Greater Kailash 1\nPrince\'s Paan and Chaat Corner\nFamous for its Pan</item>
+        <item>Delhi Haat</item>
+        <item>Khan Market\nKhan Chacha\nBest Rolls/Kebabs</item>
+        <item>Paharganj\nSitaram Diwan Chand\nPlace for Amazing Cholle Bhature</item>
+        <item>Pitampura\nBittu Tikki Wale\nOne Place for Crispy Tikki</item>
+        <item>Defence Colony Market\nSalim\'s Kebabs\nFamous Kebabs with Rumali Roti</item>
+        <item>Lajpat Nagar\nDolma Aunty ke Momos\nOne Place for Momo lovers</item>
+
+    </string-array>
+
+    <string-array name="help_smartcard0">
+        <item>1. How to use Smart Card - Entry/Exit:At entry, hold your card close to the machine for gates to
+            open. Do the same at destination station for exit"\n"</item>
+        <item>2. Entry/Exit Mismatch - Every entry into the station must be followed by an exit from the destination
+            station. In case of mismatch, charges will be collected as per DMRC rules."\n"</item>
+        <item>3. Maximum period of stay - The maximum stay permissible in the Metro station is 170 minutes if entry/exit is 
+            from different stations.Within the same station, it is 20 minutes. In case of overstaying
+            beyond permissible time(except tourist card) Penalty of Rs 10 per hour subject to maximum
+            of Rs 50 will be charged."\n"</item>
+        <item>4. Keep the card safe - Please donot damage the Smart Card. No Refund
+            is gauranteed on damaged cards."\n"</item>
+    </string-array>
+    <string-array name="help_smartcard1">
+        <item>1. Save Money - Get 10% discount on each journey performed using smart card."\n"</item>
+        <item>2. Save Time - No need to stand in queues for purchasing tokens"\n"</item>
+        <item>3. Gain Freedom - Terminate/extend your journey without preplanning."\n"</item>
+        <item>4. Enjoy Convenience - Board the train till the last minute"\n"</item>
+        <item>5. Be Flexible - Smart Card is Transferable"\n"</item>
+        <item>6. No Documentation - needed for smart card"\n"</item>
+        <item>7. Time taken - to issue smart card is same as token"\n"</item>
+        <item>8. Card is - easily transferable and can be used by anyone"\n"</item>
+    </string-array>
+    <string-array name="help_smartcard2">
+        <item>1. Travel Card - Min Value:150Rs. Max Value:1000Rs for frequent travellers"\n"</item>
+        <item>2. Tourist Card - Value Rs 150 for 1 day, Rs 300 for 3 days"\n"</item>
+        <item>3. Facility to check balance - At every station, ticket reading machines
+            can help you check balance in card"\n"</item>
+        <item>4. Available at -  customercare centre at all stations."\n"</item>
+    </string-array>
+    <string-array name="helpline">
+        <item>1. DMRC - 011 155370"\n"</item>
+        <item>2. CISF SECURITY CONTROL ROOM - 011 22185555"\n"</item>
+        <item>3. DELHI POLICE - 100"\n"</item>
+        <item>4. AMBULANCE - 102 "\n"</item>
+        <item>5. FIRE TENDER - 101"\n"</item>
+        <item>6. WOMEN IN DISTRESS - 1091"\n"</item>
+        <item>7. SENIOR CITIZEN - 1291"\n"</item>
+        <item>8. VIGILANCE - 1064"\n"</item>
+        <item>9. PCR - 100"\n"</item>
+        <item>10. EYES AND EARS - 1090"\n"</item>
+        <item>11. TRAFFIC POLICE - 1095/011 258444444"\n"</item>
+        <item>12. MISSING PERSON - 1094"\n"</item>
+        <item>13. SPECIAL CELL(NORTH EAST) - 1093"\n"</item>
+    </string-array>
+
+
+    <string-array name="stoplist_en">
+        <item>AIIMS</item>
+        <item>Adarsh Nagar</item>
+        <item>Akshardham</item>
+        <item>Anand Vihar</item>
+        <item>Arjangarh</item>
+        <item>Ashok Park Main</item>
+        <item>Azadpur</item>
+        <item>Badarpur</item>
+        <item>Badkal Mor</item>
+        <item>Badli Mor</item>
+        <item>Barakhamba</item>
+        <item>Bata Chowk</item>
+        <item>Botanical Garden</item>
+        <item>Central Secretariat</item>
+        <item>Chandni Chowk</item>
+        <item>Chattarpur</item>
+        <item>Chawri Bazar</item>
+        <item>Civil Lines</item>
+        <item>Cyber City</item>
+        <item>Dilshad Garden</item>
+        <item>Dwarka</item>
+        <item>Dwarka Mor</item>
+        <item>Dwarka Sec-10</item>
+        <item>Dwarka Sec-11</item>
+        <item>Dwarka Sec-12</item>
+        <item>Dwarka Sec-13</item>
+        <item>Dwarka Sec-14</item>
+        <item>Dwarka Sec-21</item>
+        <item>Dwarka Sec-8</item>
+        <item>Dwarka Sec-9</item>
+        <item>Escorts Mujesar</item>
+        <item>GTB Nagar</item>
+        <item>Ghitorni</item>
+        <item>Golf Course</item>
+        <item>Govindpuri</item>
+        <item>Green Park</item>
+        <item>Gurudronacharya</item>
+        <item>Hauz Khas</item>
+        <item>Huda City Centre</item>
+        <item>IFFCO Chowk</item>
+        <item>INA</item>
+        <item>ITO</item>
+        <item>Inderlok</item>
+        <item>Indraprastha</item>
+        <item>Jahangirpuri</item>
+        <item>Janak Puri East</item>
+        <item>Janak Puri West</item>
+        <item>Jangpura</item>
+        <item>Janpath</item>
+        <item>Jasola</item>
+        <item>Jawaharlal Nehru Stadium</item>
+        <item>Jhandewalan</item>
+        <item>Jhilmil</item>
+        <item>Jorbagh</item>
+        <item>Kailash Colony</item>
+        <item>Kalkaji Mandir</item>
+        <item>Kanhaiya Nagar</item>
+        <item>Karkarduma</item>
+        <item>Karol Bagh</item>
+        <item>Kashmere Gate</item>
+        <item>Kaushambi</item>
+        <item>Keshav Puram</item>
+        <item>Khan Market</item>
+        <item>Kirti Nagar</item>
+        <item>Kohat Enclave</item>
+        <item>Lajpat Nagar</item>
+        <item>Laxmi Nagar</item>
+        <item>MG Road</item>
+        <item>Madipur</item>
+        <item>Malviya Nagar</item>
+        <item>Mandi House</item>
+        <item>Mansarovar Park</item>
+        <item>Mayur Vihar 1</item>
+        <item>Mayur Vihar Ext</item>
+        <item>Mewala Maharajpur</item>
+        <item>Model Town</item>
+        <item>Mohan Estate</item>
+        <item>Moolchand</item>
+        <item>Moti Nagar</item>
+        <item>Moulsari Avenue</item>
+        <item>Mundka</item>
+        <item>NHPC Chowk</item>
+        <item>Nangloi</item>
+        <item>Nangloi Rly Station</item>
+        <item>Nawada</item>
+        <item>Neelam Chowk Ajronda</item>
+        <item>Nehru Place</item>
+        <item>Netaji Subash Palace</item>
+        <item>New Ashok Nagar</item>
+        <item>New Delhi</item>
+        <item>Nirman Vihar</item>
+        <item>Noida City Centre</item>
+        <item>Noida Sec-15</item>
+        <item>Noida Sec-16</item>
+        <item>Noida Sec-18</item>
+        <item>Okhla</item>
+        <item>Old Faridabad</item>
+        <item>Paschim Vihar(East)</item>
+        <item>Paschim Vihar(West)</item>
+        <item>Patel Chowk</item>
+        <item>Patel Nagar</item>
+        <item>Peeragarhi</item>
+        <item>Phase-2</item>
+        <item>Phase-3</item>
+        <item>Pitampura</item>
+        <item>Pragati Maidan</item>
+        <item>Pratap Nagar</item>
+        <item>Preet Vihar</item>
+        <item>Pulbangash</item>
+        <item>Punjabi Bagh</item>
+        <item>Qutab Minar</item>
+        <item>R K Ashram Marg</item>
+        <item>Race Course</item>
+        <item>Rajdhani Park</item>
+        <item>Rajendra Place</item>
+        <item>Rajiv Chowk</item>
+        <item>Rajouri Garden</item>
+        <item>Ramesh Nagar</item>
+        <item>Rithala</item>
+        <item>Rohini East</item>
+        <item>Rohini Sec 18</item>
+        <item>Rohini West</item>
+        <item>Saket</item>
+        <item>Samaypur Badli</item>
+        <item>Sarai</item>
+        <item>Sarita Vihar</item>
+        <item>Satguru Ram Singh Marg</item>
+        <item>Sector-28</item>
+        <item>Seelampur</item>
+        <item>Shadipur</item>
+        <item>Shahdara</item>
+        <item>Shastri Nagar</item>
+        <item>Shastri Park</item>
+        <item>Shivaji Park</item>
+        <item>Sikandarpur</item>
+        <item>Subash Nagar</item>
+        <item>Sultanpur</item>
+        <item>Surajmal Stadium</item>
+        <item>Tagore Garden</item>
+        <item>Tilak Nagar</item>
+        <item>Tis Hazari</item>
+        <item>Tuglakabad</item>
+        <item>Udyog Bhawan</item>
+        <item>Udyog Nagar</item>
+        <item>Uttam Nagar East</item>
+        <item>Uttam Nagar West</item>
+        <item>Vaishali</item>
+        <item>Vidhan Sabha</item>
+        <item>Vishwavidyalaya</item>
+        <item>Vodafone Belvedere Towers</item>
+        <item>Welcome</item>
+        <item>Yamuna Bank</item>
+    </string-array>
+
+    <string-array name="stoplist_hi">
+        <item> एम्स </item>
+        <item> आदर्श नगर </item>
+        <item> अक्षरधाम </item>
+        <item> आनंद विहार </item>
+        <item> Arjangarh </item>
+        <item> अशोक पार्क मेन </item>
+        <item> आजादपुर </item>
+        <item> बदरपुर </item>
+        <item> Badkal मोर </item>
+        <item> बादली मोर </item>
+        <item> बाराखंभा </item>
+        <item>बाटा चौक</item>
+        <item> बॉटनिकल गार्डन </item>
+        <item> केंद्रीय सचिवालय </item>
+        <item> चांदनी चौक </item>
+        <item> छतरपुर </item>
+        <item> चावड़ी बाजार </item>
+        <item> सिविल लाइंस </item>
+        <item> साइबर सिटी </item>
+        <item> दिलशाद गार्डन </item>
+        <item> द्वारका </item>
+        <item> द्वारका मोड़ </item>
+        <item> द्वारका सेक्टर-10 </item>
+        <item> द्वारका सेक्टर -11 </item>
+        <item> द्वारका सेक्टर-12 </item>
+        <item> द्वारका सेक्टर -13 </item>
+        <item> द्वारका सेक्टर -14 </item>
+        <item> द्वारका धारा -21 </item>
+        <item> द्वारका सेक्टर -8 </item>
+        <item> द्वारका सेक्टर -9 </item>
+        <item> एस्कॉर्ट्स Mujesar </item>
+        <item> जीटीबी नगर </item>
+        <item> Ghitorni </item>
+        <item> गोल्फ कोर्स </item>
+        <item> गोविंदपुरी </item>
+        <item> ग्रीन पार्क </item>
+        <item> गुरु द्रोणाचार्य </item>
+        <item> हौज खास </item>
+        <item> हुडा सिटी सेंटर </item>
+        <item> इफको चौक </item>
+        <item> आईएनए </item>
+        <item> आईटीओ </item>
+        <item> इंद्रलोक </item>
+        <item> इंद्रप्रस्थ </item>
+        <item> जहांगीरपुरी </item>
+        <item> जनकपुरी ईस्ट </item>
+        <item> जनकपुरी वेस्ट </item>
+        <item> जंगपुरा </item>
+        <item> जनपथ </item>
+        <item> जसोला </item>
+        <item> जवाहर लाल नेहरू स्टेडियम </item>
+        <item> झंडेवालान </item>
+        <item> झिलमिल </item>
+        <item> Jorbagh </item>
+        <item> कैलाश कॉलोनी </item>
+        <item> कालकाजी मंदिर </item>
+        <item> कन्हैया नगर </item>
+        <item> Karkarduma </item>
+        <item> करोल बाग </item>
+        <item> कश्मीरी गेट </item>
+        <item> कौशांबी </item>
+        <item> केशव पुरम </item>
+        <item> खान मार्केट </item>
+        <item> कीर्ति नगर </item>
+        <item> कोहाट एंक्लेव </item>
+        <item> लाजपत नगर </item>
+        <item> लक्ष्मी नगर </item>
+        <item> एमजी रोड </item>
+        <item> मादीपुर विधानसभा निर्वाचन क्षेत्र, दिल्ली </item>
+        <item> मालवीय नगर </item>
+        <item> मंडी हाउस </item>
+        <item> मानसरोवर पार्क </item>
+        <item> मयूर विहार 1 </item>
+        <item> मयूर विहार एक्सटेंशन </item>
+        <item> Mewala महाराजपुर </item>
+        <item> मॉडल टाउन </item>
+        <item> मोहन एस्टेट </item>
+        <item> मूलचंद </item>
+        <item> मोती नगर </item>
+        <item> Moulsari एवेन्यू </item>
+        <item> मुंडका </item>
+        <item> एनएचपीसी चौक </item>
+        <item> नांगलोई </item>
+        <item>नांगलोई रेलवे स्टेशन</item>
+        <item> नवादा </item>
+        <item> नीलम चौक Ajronda </item>
+        <item> नेहरू प्लेस </item>
+        <item> नेताजी सुभाष पैलेस </item>
+        <item> न्यू अशोक नगर </item>
+        <item> नई दिल्ली </item>
+        <item> निर्माण विहार </item>
+        <item> नोएडा सिटी सेंटर </item>
+        <item> नोएडा सेक्टर 15 </item>
+        <item> नोएडा सेक्टर 16 </item>
+        <item> नोएडा सेक्टर 18 </item>
+        <item> ओखला </item>
+        <item> पुराना फरीदाबाद </item>
+        <item> पश्चिम विहार (पूर्व) </item>
+        <item> पश्चिम विहार (पश्चिम) </item>
+        <item> पटेल चौक </item>
+        <item> पटेल नगर </item>
+        <item> पीरागढ़ी </item>
+        <item> फेज -2 </item>
+        <item> फेज -3 </item>
+        <item> पीतमपुरा </item>
+        <item> प्रगति मैदान </item>
+        <item> प्रताप नगर </item>
+        <item> प्रीत विहार </item>
+        <item> Pulbangash </item>
+        <item> पंजाबी बाग </item>
+        <item> कुतुब मीनार </item>
+        <item> आर के आश्रम मार्ग </item>
+        <item> रेस कोर्स </item>
+        <item> राजधानी पार्क </item>
+        <item> राजेंद्र प्लेस </item>
+        <item> राजीव चौक </item>
+        <item> राजौरी गार्डन </item>
+        <item> रमेश नगर </item>
+        <item> रिठाला </item>
+        <item> रोहिणी ईस्ट </item>
+        <item> रोहिणी धारा 18 </item>
+        <item> रोहिणी पश्चिम </item>
+        <item> साकेत </item>
+        <item> Samaypur बादली </item>
+        <item> सराय </item>
+        <item> सरिता विहार </item>
+        <item> सतगुरु राम सिंह मार्ग </item>
+        <item> सेक्टर 28 </item>
+        <item> सीलमपुर </item>
+        <item> शादीपुर </item>
+        <item> शाहदरा </item>
+        <item> शास्त्री नगर </item>
+        <item> शास्त्री पार्क </item>
+        <item> शिवाजी पार्क </item>
+        <item> सिकंदरपुर </item>
+        <item> सुभाष नगर </item>
+        <item> सुल्तानपुर </item>
+        <item> सूरजमल स्टेडियम </item>
+        <item> टैगोर गार्डन </item>
+        <item> तिलक नगर </item>
+        <item> तीस हजारी </item>
+        <item> तुगलकाबाद </item>
+        <item> उद्योग भवन </item>
+        <item> उद्योग नगर </item>
+        <item> उत्तम नगर ईस्ट </item>
+        <item> उत्तम नगर पश्चिम </item>
+        <item> वैशाली </item>
+        <item> विधानसभा </item>
+        <item> विश्वविद्यालय </item>
+        <item> वोडाफोन Belvedere टावर्स </item>
+        <item> वेलकम </item>
+        <item> यमुना बैंक </item>
+    </string-array>
+
+    <string-array name="stoplist_mr">
+        <item> एम्स </item>
+        <item> आदर्श नगर </item>
+        <item> अक्षरधाम </item>
+        <item> आनंद विहार </item>
+        <item> Arjangarh </item>
+        <item> अशोक पार्क मेन </item>
+        <item> आजादपुर </item>
+        <item> बदरपुर </item>
+        <item> Badkal मोर </item>
+        <item> बादली मोर </item>
+        <item> बाराखंभा </item>
+        <item>बाटा चौक</item>
+        <item> बॉटनिकल गार्डन </item>
+        <item> केंद्रीय सचिवालय </item>
+        <item> चांदनी चौक </item>
+        <item> छतरपुर </item>
+        <item> चावड़ी बाजार </item>
+        <item> सिविल लाइंस </item>
+        <item> साइबर सिटी </item>
+        <item> दिलशाद गार्डन </item>
+        <item> द्वारका </item>
+        <item> द्वारका मोड़ </item>
+        <item> द्वारका सेक्टर-10 </item>
+        <item> द्वारका सेक्टर -11 </item>
+        <item> द्वारका सेक्टर-12 </item>
+        <item> द्वारका सेक्टर -13 </item>
+        <item> द्वारका सेक्टर -14 </item>
+        <item> द्वारका धारा -21 </item>
+        <item> द्वारका सेक्टर -8 </item>
+        <item> द्वारका सेक्टर -9 </item>
+        <item> एस्कॉर्ट्स Mujesar </item>
+        <item> जीटीबी नगर </item>
+        <item> Ghitorni </item>
+        <item> गोल्फ कोर्स </item>
+        <item> गोविंदपुरी </item>
+        <item> ग्रीन पार्क </item>
+        <item> गुरु द्रोणाचार्य </item>
+        <item> हौज खास </item>
+        <item> हुडा सिटी सेंटर </item>
+        <item> इफको चौक </item>
+        <item> आईएनए </item>
+        <item> आईटीओ </item>
+        <item> इंद्रलोक </item>
+        <item> इंद्रप्रस्थ </item>
+        <item> जहांगीरपुरी </item>
+        <item> जनकपुरी ईस्ट </item>
+        <item> जनकपुरी वेस्ट </item>
+        <item> जंगपुरा </item>
+        <item> जनपथ </item>
+        <item> जसोला </item>
+        <item> जवाहर लाल नेहरू स्टेडियम </item>
+        <item> झंडेवालान </item>
+        <item> झिलमिल </item>
+        <item> Jorbagh </item>
+        <item> कैलाश कॉलोनी </item>
+        <item> कालकाजी मंदिर </item>
+        <item> कन्हैया नगर </item>
+        <item> Karkarduma </item>
+        <item> करोल बाग </item>
+        <item> कश्मीरी गेट </item>
+        <item> कौशांबी </item>
+        <item> केशव पुरम </item>
+        <item> खान मार्केट </item>
+        <item> कीर्ति नगर </item>
+        <item> कोहाट एंक्लेव </item>
+        <item> लाजपत नगर </item>
+        <item> लक्ष्मी नगर </item>
+        <item> एमजी रोड </item>
+        <item> मादीपुर विधानसभा निर्वाचन क्षेत्र, दिल्ली </item>
+        <item> मालवीय नगर </item>
+        <item> मंडी हाउस </item>
+        <item> मानसरोवर पार्क </item>
+        <item> मयूर विहार 1 </item>
+        <item> मयूर विहार एक्सटेंशन </item>
+        <item> Mewala महाराजपुर </item>
+        <item> मॉडल टाउन </item>
+        <item> मोहन एस्टेट </item>
+        <item> मूलचंद </item>
+        <item> मोती नगर </item>
+        <item> Moulsari एवेन्यू </item>
+        <item> मुंडका </item>
+        <item> एनएचपीसी चौक </item>
+        <item> नांगलोई </item>
+        <item>नांगलोई रेलवे स्टेशन</item>
+        <item> नवादा </item>
+        <item> नीलम चौक Ajronda </item>
+        <item> नेहरू प्लेस </item>
+        <item> नेताजी सुभाष पैलेस </item>
+        <item> न्यू अशोक नगर </item>
+        <item> नई दिल्ली </item>
+        <item> निर्माण विहार </item>
+        <item> नोएडा सिटी सेंटर </item>
+        <item> नोएडा सेक्टर 15 </item>
+        <item> नोएडा सेक्टर 16 </item>
+        <item> नोएडा सेक्टर 18 </item>
+        <item> ओखला </item>
+        <item> पुराना फरीदाबाद </item>
+        <item> पश्चिम विहार (पूर्व) </item>
+        <item> पश्चिम विहार (पश्चिम) </item>
+        <item> पटेल चौक </item>
+        <item> पटेल नगर </item>
+        <item> पीरागढ़ी </item>
+        <item> फेज -2 </item>
+        <item> फेज -3 </item>
+        <item> पीतमपुरा </item>
+        <item> प्रगति मैदान </item>
+        <item> प्रताप नगर </item>
+        <item> प्रीत विहार </item>
+        <item> Pulbangash </item>
+        <item> पंजाबी बाग </item>
+        <item> कुतुब मीनार </item>
+        <item> आर के आश्रम मार्ग </item>
+        <item> रेस कोर्स </item>
+        <item> राजधानी पार्क </item>
+        <item> राजेंद्र प्लेस </item>
+        <item> राजीव चौक </item>
+        <item> राजौरी गार्डन </item>
+        <item> रमेश नगर </item>
+        <item> रिठाला </item>
+        <item> रोहिणी ईस्ट </item>
+        <item> रोहिणी धारा 18 </item>
+        <item> रोहिणी पश्चिम </item>
+        <item> साकेत </item>
+        <item> Samaypur बादली </item>
+        <item> सराय </item>
+        <item> सरिता विहार </item>
+        <item> सतगुरु राम सिंह मार्ग </item>
+        <item> सेक्टर 28 </item>
+        <item> सीलमपुर </item>
+        <item> शादीपुर </item>
+        <item> शाहदरा </item>
+        <item> शास्त्री नगर </item>
+        <item> शास्त्री पार्क </item>
+        <item> शिवाजी पार्क </item>
+        <item> सिकंदरपुर </item>
+        <item> सुभाष नगर </item>
+        <item> सुल्तानपुर </item>
+        <item> सूरजमल स्टेडियम </item>
+        <item> टैगोर गार्डन </item>
+        <item> तिलक नगर </item>
+        <item> तीस हजारी </item>
+        <item> तुगलकाबाद </item>
+        <item> उद्योग भवन </item>
+        <item> उद्योग नगर </item>
+        <item> उत्तम नगर ईस्ट </item>
+        <item> उत्तम नगर पश्चिम </item>
+        <item> वैशाली </item>
+        <item> विधानसभा </item>
+        <item> विश्वविद्यालय </item>
+        <item> वोडाफोन Belvedere टावर्स </item>
+        <item> वेलकम </item>
+        <item> यमुना बैंक </item>
+    </string-array>
+
+
+    <string-array name="stoplist_kn">
+        <item> ಏಮ್ಸ್ </item>
+                
+        <item> ಆದರ್ಶ್ ನಗರ್ </item>
+                
+        <item> ಅಕ್ಷರಧಾಮ </item>
+                
+        <item> ಆನಂದ್ ವಿಹಾರ್ </item>
+                
+        <item> Arjngda </item>
+                
+        <item> ಅಶೋಕ್ ಪಾರ್ಕ್ </item>
+                
+        <item> Azadpur </item>
+                
+        <item> ಬದಾರ್ಪುರ್ </item>
+                
+        <item> Bdakl ಇನ್ನಷ್ಟು </item>
+                
+        <item> ಬದಲಾವಣೆ ಇನ್ನಷ್ಟು </item>
+                
+        <item> Barakhamba </item>
+                
+        <item> ಹೇಳಿ ಪ್ಲಾಜಾ </item>
+                
+        <item> ಬಟಾನಿಕಲ್ ಗಾರ್ಡನ್ಸ್ </item>
+                
+        <item> ಸೆಂಟ್ರಲ್ ಸೆಕ್ರೆಟರಿಯೇಟ್ </item>
+                
+        <item> ಚಾಂದನಿ ಚೌಕ್ </item>
+                
+        <item> ITI ಗಳು </item>
+                
+        <item> ಚೌರಿ ಮಾರುಕಟ್ಟೆ </item>
+                
+        <item> ಸಿವಿಲ್ ಲೈನ್ಸ್ </item>
+                
+        <item> ಸೈಬರ್ ಸಿಟಿ </item>
+                
+        <item> ದಿಲ್ಶಾದ್ ಗಾರ್ಡನ್ </item>
+                
+        <item> ದ್ವಾರಕಾ </item>
+                
+        <item> ದ್ವಾರಕಾ ಮಾರ್ಪಡಿಸಿದ </item>
+                
+        <item> ದ್ವಾರಕಾ ಸೆಕ್ಷನ್-ಎಕ್ಸ್. </item>
+                
+        <item> ದ್ವಾರಕಾ ಸೆಕ್ಷನ್-ಇಲೆವೆನ್ </item>
+                
+        <item> ದ್ವಾರಕಾ ಸೆಕ್ಷನ್-ಹನ್ನೆರಡನೇ </item>
+                
+        <item> ದ್ವಾರಕಾ ಸೆಕ್ಷನ್-xiii </item>
+                
+        <item> ದ್ವಾರಕಾ ಸೆಕ್ಷನ್ ನಾಮಕರಣಗೊಂಡ ಮೂರು ಬಾರಿ </item>
+                
+        <item> ದ್ವಾರಕಾ ಸೆಕ್ಷನ್-ಇಪ್ಪತ್ತೊಂದು </item>
+                
+        <item> ದ್ವಾರಕಾ ಸೆಕ್ಷನ್ ಎಂಟು </item>
+                
+        <item> ದ್ವಾರಕಾ ಸೆಕ್ಷನ್ ಒಂಬತ್ತು </item>
+                
+        <item> ಮೈಗಾವಲು Mujesr </item>
+                
+        <item> GTB ನಗರ </item>
+                
+        <item> Ghitorni </item>
+                
+        <item> ಗಾಲ್ಫ್ ಕೋರ್ಸ್ಗಳು </item>
+                
+        <item> ಗೋವಿಂದಪುರಿ </item>
+                
+        <item> ಗ್ರೀನ್ ಪಾರ್ಕ್ </item>
+                
+        <item> Gurudraonachary </item>
+                
+        <item> ಹೌಜ್ ಖಾಸ್ </item>
+                
+        <item> HUDA ಸಿಟಿ ಸೆಂಟರ್ </item>
+                
+        <item> IFFCO ಚೌಕ್ </item>
+                
+        <item> ಇನಾ </item>
+                
+        <item> ಐಟಿಒ </item>
+                
+        <item> Indrlok </item>
+                
+        <item> ಇಂದ್ರಪ್ರಸ್ಥ </item>
+                
+        <item> Jahangirpuri </item>
+                
+        <item> ಪೋಷಕ ಇಡೀ ಪೂರ್ವ </item>
+                
+        <item> ಪೋಷಕ ಇಡೀ ಪಶ್ಚಿಮ </item>
+                
+        <item> Jangpura </item>
+                
+        <item> ಜನಪಥ್ </item>
+                
+        <item> Jasola </item>
+                
+        <item> ಜವಾಹರಲಾಲ್ ನೆಹರೂ ಕ್ರೀಡಾಂಗಣದಲ್ಲಿ </item>
+                
+        <item> Jhandewalan </item>
+                
+        <item> ಕುರುಡು </item>
+                
+        <item> Jorbag ​​</item>
+                
+        <item> ಕೈಲಾಶ್ ಕಾಲೊನೀ </item>
+                
+        <item> Kalkaji ದೇವಾಲಯ </item>
+                
+        <item> ಖಾನಿಯ ನಗರ </item>
+                
+        <item> Krkrduma </item>
+                
+        <item> ಕರೋಲ್ ಬಾಗ್ </item>
+                
+        <item> Kashmere ಗೇಟ್ </item>
+                
+        <item> ಕೌಶಂಬಿ </item>
+                
+        <item> ಕೇಶವ ಪುರಮ್ </item>
+                
+        <item> ಖಾನ್ ಮಾರುಕಟ್ಟೆ </item>
+                
+        <item> ಕೀರ್ತಿ ನಗರ್ </item>
+                
+        <item> Kohat ಅರ್ನ್ಕ್ಲೇವ್ </item>
+                
+        <item> ಲಜಪತ್ ನಗರ </item>
+                
+        <item> ಲಕ್ಷ್ಮಿ ನಾಗರ್ </item>
+                
+        <item> ಮಗ್ಗಳು ರೋಡ್ </item>
+                
+        <item> Madipur </item>
+                
+        <item> ಮಾಲವೀಯ ನಗರ </item>
+                
+        <item> ಮಂಡಿ ಹೌಸ್ </item>
+                
+        <item> Mansarovar ಪಾರ್ಕ್ </item>
+                
+        <item> ಮಯೂರ್ ವಿಹಾರ್ ಒಂದು </item>
+                
+        <item> ಮಯೂರ್ ವಿಹಾರ್ ಉಚ್ಚಾರಣಾ </item>
+                
+        <item> Mevla Maharajpur </item>
+                
+        <item> ಮಾಡೆಲ್ ಟೌನ್ </item>
+                
+        <item> ಮೋಹನ್ ಎಸ್ಟೇಟ್ </item>
+                
+        <item> Moolchand </item>
+                
+        <item> ಪರ್ಲ್ ಸಿಟಿ </item>
+                
+        <item> Mulsri ಅವೆನ್ಯೂ </item>
+                
+        <item> Mundka </item>
+                
+        <item> Hps ಸ್ಕ್ವೇರ್ </item>
+                
+        <item> Nangloi </item>
+                
+        <item> Nangloi ರೈಲು ನಿಲ್ದಾಣದ </item>
+                
+        <item> ನವಾಡಾ </item>
+                
+        <item> ನೀಲಂ ಚೌಕ್ Ajrunda </item>
+                
+        <item> ನೆಹರೂ ಪ್ಲೇಸ್ </item>
+                
+        <item> ನೇತಾಜಿ Subas ಅರಮನೆ </item>
+                
+        <item> ಹೊಸ ಅಶೋಕ ನಗರ </item>
+                
+        <item> ದಹಲಿ </item>
+                
+        <item> ನಿರ್ಮಾಣ್ ವಿಹಾರ್ </item>
+                
+        <item> ನೋಯ್ಡಾ ಸಿಟಿ ಸೆಂಟರ್ </item>
+                
+        <item> ನೋಯ್ಡಾ ಸೆಕ್ಷನ್-ಹದಿನೈದು </item>
+                
+        <item> ನೋಯ್ಡಾ ಸೆಕ್ಷನ್-ಹದಿನಾರು </item>
+                
+        <item> ನೋಯ್ಡಾ ಸೆಕ್ಷನ್-ಹದಿನೆಂಟು </item>
+                
+        <item> ಒಖ್ಲಾ </item>
+                
+        <item> ಹಳೆಯ ಫರಿದಾಬಾದ್ </item>
+                
+        <item> ಪಶ್ಚಿಮ್ ವಿಹಾರ್ (ಪೂರ್ವ) </item>
+                
+        <item> ಪಶ್ಚಿಮ್ ವಿಹಾರ್ (ಪಶ್ಚಿಮ) </item>
+                
+        <item> ಪಟೇಲ್ ಚೌಕ್ </item>
+                
+        <item> ಪಟೇಲ್ ನಾಗರ್ </item>
+                
+        <item> Piragdai </item>
+                
+        <item> ಹಂತ- ಎರಡು </item>
+                
+        <item> ಹಂತ ಮೂರು </item>
+                
+        <item> ಪಿತಾಂಪುರ </item>
+                
+        <item> ಪ್ರಗತಿ ಮೈದಾನದಲ್ಲಿ </item>
+                
+        <item> ಪ್ರತಾಪ್ ನಗರ </item>
+                
+        <item> ಪ್ರೀತ್ ವಿಹಾರ್ </item>
+                
+        <item> Pulbangs </item>
+                
+        <item> ಪಂಜಾಬಿ ಬಾಗ್ </item>
+                
+        <item> ಕುತುಬ್ ಮಿನಾರ್ </item>
+                
+        <item> ಮತ್ತು ಆಶ್ರಮ ಮಾರ್ಗ್ </item>
+                
+        <item> ರೇಸ್ ಕೋರ್ಸ್ </item>
+                
+        <item> ಕ್ಯಾಪಿಟಲ್ ಪಾರ್ಕ್ </item>
+                
+        <item> ರಾಜೇಂದ್ರ ಪ್ಲೇಸ್ </item>
+                
+        <item> ಜೆಎಫ್ </item>
+                
+        <item> ರಾಜೌರಿ ಗಾರ್ಡನ್ </item>
+                
+        <item> ರಮೇಶ್ ನಾಗರ್ </item>
+                
+        <item> ರಿತಾಲಾ </item>
+                
+        <item> ರೋಹಿಣಿ ಈಸ್ಟ್ </item>
+                
+        <item> ರೋಹಿಣಿ ಸೆಕ್ಟರ್ ಹದಿನೆಂಟು </item>
+                
+        <item> ರೋಹಿಣಿ ವೆಸ್ಟ್ </item>
+                
+        <item> ಸಾಕೆಟ್ನಲ್ಲೇ </item>
+                
+        <item> Smaypur ಬದಲಾಯಿಸಿಕೊಳ್ಳಬಹುದು </item>
+                
+        <item> ಎಲ್ಲ </item>
+                
+        <item> ಸರಿತಾ ವಿಹಾರ್ </item>
+                
+        <item> ಸದ್ಗುರು ರಾಮ್ ಸಿಂಗ್ ಮಾರ್ಗ್ </item>
+                
+        <item> ವಲಯ ಪರಿಸರೀಯ ಸವಾಲು </item>
+                
+        <item> seelampur </item>
+                
+        <item> Shadipur </item>
+                
+        <item> ಶಾಹ್ದರ </item>
+                
+        <item> ಶಾಸ್ತ್ರಿ ನಗರದಲ್ಲಿರುವ </item>
+                
+        <item> ಶಾಸ್ತ್ರಿ ಪಾರ್ಕ್ </item>
+                
+        <item> ಶಿವಾಜಿ ಪಾರ್ಕ್ </item>
+                
+        <item> ಸಿಕಂದರ್ </item>
+                
+        <item> Subas ನಗರ </item>
+                
+        <item> ಸುಲ್ತಾನ್ಪುರ್ </item>
+                
+        <item> surajmal ಕ್ರೀಡಾಂಗಣದಲ್ಲಿ </item>
+                
+        <item> ಟ್ಯಾಗೋರ್ ಗಾರ್ಡನ್ </item>
+                
+        <item> ತಿಲಕ್ ನಗರ </item>
+                
+        <item> ಟಿಸ್ ಹಝಾರಿ </item>
+                
+        <item> Tuglakabad </item>
+                
+        <item> ಇಂಡಸ್ಟ್ರಿ ಕಟ್ಟಡ </item>
+                
+        <item> ಇಂಡಸ್ಟ್ರಿ ಸಿಟಿ </item>
+                
+        <item> ಮೃತರನ್ನು ಉತ್ತಮ್ ನಗರದ ಪೂರ್ವ </item>
+                
+        <item> ಮೃತರನ್ನು ಉತ್ತಮ್ ನಗರದ ವೆಸ್ಟ್ </item>
+                
+        <item> ವೈಶಾಲಿ </item>
+                
+        <item> ಅಸೆಂಬ್ಲಿ </item>
+                
+        <item> ವಿಶ್ವವಿದ್ಯಾಲಯ </item>
+                
+        <item> ವೊಡಾಫೋನ್ ಬೆಲ್ವೆಡೆರೆ ಟವರ್ಸ್ </item>
+                
+        <item> ಸ್ವಾಗತ </item>
+                
+        <item> ಯಮುನಾ ಬ್ಯಾಂಕ್ </item>
+    </string-array>
+
+
+</resources>

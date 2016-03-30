@@ -1,0 +1,44 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="dialogAnim">
+        <item name="android:windowEnterAnimation">@anim/trans_top_in</item>
+        <item name="android:windowExitAnimation">@anim/trans_top_out</item>
+    </style>
+
+    <style name="DialogAnimation" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/dialogAnim</item>
+    </style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/actionbar_background</item>
+        <item name="android:titleTextStyle">@style/Title</item>
+        <item name="android:height">@dimen/actionBarHeight</item>
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+
+    <style name="AlertDialogCustom">
+        <item name="android:textColor">@color/actionbar_background</item>
+    </style>
+
+    <style name="Title" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

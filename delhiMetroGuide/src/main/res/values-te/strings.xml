@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    <string name="sde">Source and Destination are Empty</string>
+     <string name="sds">Source - Destination are Same</string>
+      <string name="cs">Choose Source</string>
+       <string name="cd">Choose destination</string>
+           <string name="keliyebadle">Change for</string>
+       
+    
+    <string name="release">విడుదల వెర్షన్ :</string>
+    <string name="developer">డెవలపర్</string>
+    <string name="dedicated1">This app is dedicated to The Almighty,to our parents,to friends.\nWe have tried our level best to keep the data integrity in accordance with Delhi Metro database.\n For reference we have choosen:</string>
+    <string name="dedicated2">సలహాలు లేదా అభిప్రాయాన్ని మాకు మెయిల్ చేయండి:</string>
+    <string name="journey_header">ప్రయాణం వివరాలు:</string>
+    <string name="journeyTime">ప్రయాణం  సమయం: %1s (approx.)</string>
+    <string name="noOfStations">స్టేషన్స్: %1s</string>
+    <string name="noOfInterchange">పరస్పరం మార్చుకొనుము: %1s</string>
+    <string name="enter_station_hint">స్టేషన్ పేరును నమోదు చేయండి</string>
+    <string name="language_menu">భాష</string>
+    <string name="press_start">ఢిల్లీ మెట్రో  అప్లికేషన్ ఉపయోగించడానికి  స్టార్ట్  బటన్ క్లిక్  చేయండి.</string>
+    <string name="welcome">స్వాగతం</string>
+    <string name="Start">ప్రారంభించడానికి   స్టార్ట్  నొక్కండి</string>
+    <string name="app_name">ఢిల్లీ మెట్రో గైడ్</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="first">ప్రధమం</string>
+    <string name="last">చివరి</string>
+    <string name="prepend">ప్రిపెండ్ </string>
+    <string name="title_activity_main_tab">MainTabActivity</string>
+    <string name="helpheader0">ఒక స్మార్ట్ ట్రావెలర్ అవ్వండి!</string>
+
+    <string name="helpheader1"><html><b><u>    స్మార్ట్ కార్డ్ కొనుగోలు చేయడానికి 5 కారణాలు!!</u></b></html>"\n"</string>
+    <string name="helpheader2"><html><b><u>మీ స్మార్ట్ కార్డ్ ఎంచుకోండి!!</u></b></html>"\n"</string>
+    <string name="helpheader3"><html><b><u>హెల్ప్లైన్ నంబర్లు!!</u></b></html>"\n"</string>
+    <string name="reference">www.delhimetrorail.com</string>
+    <string name="suggestion">techdomain0502@gmail.com</string>
+    <string name="version">1.1.20150627</string>
+    <string name="programmer">Saurabh, Shobhit, Sachin</string>
+    <string name="route_details">రూట్ వివరాలు</string>
+    <string name="show_route">రూట్ చూపించు</string>
+    <string name="switch_button">స్విచ్ స్టేషన్స్</string>
+    <string name="fare_details">ఛార్జీల వివరాలు</string>
+    <string name="time_details">ఫస్ట్ లాస్ట్ ట్రైన్ వివరాలు</string>
+    <string name="smartcardFare">స్మార్ట్ కార్డ్ ఛార్జీ :Rs 0</string>
+    <string name="fare_rs_0">సాధారణ ఛార్జీ  :Rs 0</string>
+    <string name="smartnote_fare">*గమనిక: 10% డిస్కౌంట్ పొందుటకు స్మార్ట్ కార్డు ఉపయోగించండి.</string>
+    <string name="normalfare">సాధారణ ఛార్జీ  : Rs %1s</string>
+    <string name="smartfare">స్మార్ట్ కార్డ్ ఛార్జీ : Rs %1s</string>
+    <string name="to">వరకు</string>
+    <string name="first_time">మొదటి రైలు:NA</string>
+    <string name="last_time">ివరి  రైలు:NA</string>
+     <string name="first_time_code">మొదటి రైలు</string>
+    <string name="last_time_code"> చివరి  రైలు</string>
+    
+    <string name="choose_source_station">Source స్టేషన్ ఎంచుకోండి</string>
+    <string name="choose_destination_station">గమ్య స్టేషన్ ఎంచుకోండి</string>
+    <string name="fare_label">కార్, బైక్ మరియు సైకిల్  ఛార్జీ  కోసం రూ లో .</string>
+    <string name="daily_upto_6_hrs">డైలీ  6 Hrs వరకు</string>
+    <string name="daily_upto_12_hrs">డైలీ  12 Hrs వరకు</string>
+    <string name="daily_more_than_12_hrs">డైలీ  12 hrs కంటే ఎక్కువ </string>
+    <string name="monthly"> ప్రతి నెల </string>
+    <string name="fare_625">625</string>
+    <string name="daily_night_extra">ప్రతి నెల    నైట్ అదనం</string>
+    <string name="fare_25">25</string>
+    <string name="fare_15">15</string>
+    <string name="fare_10">10</string>
+    <string name="monthly_night_extra">ప్రతి నెల    నైట్ అదనం</string>
+    <string name="fare_5">5</string>
+    <string name="fare_8">8</string>
+    <string name="fare_12">12</string>
+    <string name="fare_300">300</string>
+    <string name="fare_2">2</string>
+    <string name="fare_3">3</string>
+    <string name="fare_4">4</string>
+    <string name="fare_30">30</string>
+    <string name="settings">సెట్టింగులు</string>
+    <string name="language">భాష మార్చుము</string>
+    <string name="tab_route">రూట్</string>
+    <string name="tab_fare">ఛార్జీ </string>
+    <string name="tab_lasttrain">టైమింగ్స్</string>
+    <string name="source_station">Select Source</string>
+    <string name="destination_station">Select Destination</string>
+    <string name="last_source_station">లైన్  ఎంచుకోండి</string>
+
+    <string-array name="nearby_places">
+        <item>సమీపంలోని స్థలాలను ఎంచుకోండి</item>
+        <item>కేఫ్</item>
+        <item>హాస్పిటల్స్</item>
+        <item>రెస్టారెంట్</item>
+    </string-array>
+    <string-array name="menu_settings">
+        <item>మెట్రో సహాయం</item>
+        <item>మెట్రో మ్యాప్</item>
+        <item>పార్కింగ్ రేట్లు</item>
+        <item>మా గురించి</item>
+        <item>Check for Updates</item>
+        <item>Like us on Google</item>
+    </string-array>
+   
+   <string name="langchange">భాష  మారుతున్నది</string>
+    <string name="help">మెట్రో సహాయం</string>
+    <string name="about">మా గురించి</string>
+    <string name="map">పటము</string>
+    <string name="parking">పార్కింగ్ రేట్లు</string>
+    <string name="search">స్టేషన్  కోసం సెర్్చ చేయండి</string>
+
+    <string name="violet">వయొలెట్</string>
+    <string name="indigo"> నీలిమందు</string>
+    <string name="blue">నీలం</string>
+    <string name="green">ఆకుపచ్చ</string>
+    <string name="yellow">పసుపు</string>
+    <string name="orange">నారింజ</string>
+    <string name="red">ఎరుపు</string>
+    <string name="grey">బూడిద</string>
+    <string name="line">లైన్</string>
+    <string name="junction">(జంక్షన్)</string>
+    <string name="changehere">ఇక్కడ మారండి</string>
+
+</resources>

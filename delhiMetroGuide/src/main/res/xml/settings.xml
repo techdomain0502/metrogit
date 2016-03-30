@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:key="general_category"
+        android:title="@string/general" >
+        <Preference
+            android:key="metro_help"
+            android:summary="@string/metro_help_sum"
+            android:title="@string/metro_help" />
+        <Preference
+            android:key="metro_map"
+            android:summary="@string/metro_map_sum"
+            android:title="@string/metro_map" />
+        <Preference
+            android:key="metro_parking"
+            android:summary="@string/metro_parking_sum"
+            android:title="@string/metro_parking" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="about_category"
+        android:title="@string/app " >
+        <Preference
+            android:key="about"
+            android:summary="@string/about_sum"
+            android:title="@string/about_header" />
+        <Preference
+            android:key="update"
+            android:summary="@string/update_sum"
+            android:title="@string/update_header" />
+        <Preference
+            android:key="like"
+            android:summary="@string/like_header_sum"
+            android:title="@string/like_header" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

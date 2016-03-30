@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.delhi.metro.sasha"
+    android:versionCode="11"
+    android:versionName="20160120.1.11" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+
+
+    -->
+    <!--
+     The following two permissions are not required to use
+     Google Maps Android API v2, but are recommended.
+
+
+
+
+    -->
+    <!--
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+
+
+
+    -->
+    <!--
+         <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+
+
+
+    -->
+    <application
+        android:name=".gui.MetroApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        
+             <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".gui.WelcomePage"
+            style="@android:style/Theme.Holo.NoActionBar.Fullscreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.OTHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".stops.StopListUiActivity"
+            style="@android:style/Theme.Holo.NoActionBar.Fullscreen"
+            android:label="@string/route_details"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.OTHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".search.SearchStation"
+            android:label="@string/search"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.OTHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".search.SearchPlace"
+            android:label="@string/search"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.OTHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".googleapis.OfflineMapActivity"
+            android:label="@string/map"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.OTHHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".parking.ParkingActivity"
+            android:label="@string/parking"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.OTHHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".gui.AboutScreen"
+            android:label="@string/about"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.ABOUT" />
+
+                <category android:name="android.intent.category.OTHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".gui.HelpScreen"
+            android:label="@string/help"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.HELP" />
+
+                <category android:name="android.intent.category.OTHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".gui.MainTabActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".settings.SettingsScreen"
+            android:label="@string/settings"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.OTHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".googleapis.FollowRouteActivity"
+            android:label="Tourist Attractions"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.OTHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.delhi.metro.sasha.googleapis.FindNearbyAttractionRouteActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.OTHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+             <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAAO-B7F0AIApozSydAQVbGltffK4X2fQk" />
+
+
+
+
+        -->
+
+        <activity
+            android:name=".tutorial.TutorialScreen"
+            android:label="@string/tutorial"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.OTHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

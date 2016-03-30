@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/header_marginTop"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/fare_view_padding"
+            android:text="@string/time_details"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/route_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:layout_marginTop="@dimen/header_marginTop" >
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/last_train" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/first"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/route_container"
+            android:layout_marginTop="@dimen/header_marginTop"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/fare_view_padding"
+            android:text="@string/first_time"
+            android:textSize="@dimen/fare_textSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/last"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/first"
+            android:layout_marginTop="@dimen/buttonTopMargin"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/fare_view_padding"
+            android:text="@string/last_time"
+            android:textSize="@dimen/fare_textSize"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</ScrollView>

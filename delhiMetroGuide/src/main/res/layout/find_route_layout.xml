@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/header_marginTop"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:padding="@dimen/fare_view_padding"
+            android:text="@string/route_details"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:id="@+id/route_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:layout_marginTop="@dimen/header_marginTop" >
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/route_layout" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/note"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonContainer"
+            android:layout_marginTop="@dimen/header_marginTop"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/fare_view_padding"
+            android:text="@string/smartnote_fare"
+            android:textSize="@dimen/note"
+            android:textStyle="italic" />
+
+
+        <LinearLayout
+            android:id="@+id/buttonContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/route_container"
+            android:layout_marginEnd="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="@dimen/header_marginTop"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingTop="@dimen/fare_view_padding" >
+
+            <Button
+                android:id="@+id/routeButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/tab_back"
+                android:padding="@dimen/fare_view_padding"
+                android:text="@string/show_route"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/swapButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/buttonTopMargin"
+                android:background="@color/tab_back"
+                android:padding="@dimen/fare_view_padding"
+                android:text="@string/switch_button"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
