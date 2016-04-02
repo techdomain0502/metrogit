@@ -31,7 +31,7 @@ public class DataFeeder {
 	private static Context mContext;
 	private static  DbHelper dbhelper;
     private static DataFeeder mInstance;
-    private static Map<Pair,Float> map = new HashMap<Pair,Float>();
+    private static Map<Pair,Float> map;
 
 	/*Translation Map*/
     private static HashMap<String, String> enTohiMap,hiToEnMap,enToTaMap,TaToEnMap,enToTeMap,TeToenMap,enToKnMap,KnToenMap,enToMlMap,MlToenMap,enToMrMap,MrToenMap;
@@ -63,7 +63,7 @@ public class DataFeeder {
 		enToMlMap= new HashMap<String,String>();
 		MrToenMap= new HashMap<String,String>();
 		enToMrMap= new HashMap<String,String>();
-		
+		map = new HashMap<Pair,Float>();
 		//initData();
 	}
 	
