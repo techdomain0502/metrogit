@@ -300,7 +300,11 @@ public class DataFeeder {
 		
 		if(enToKnMap!=null)
 			enToKnMap.clear();
-	
+
+		if(map!=null)
+			map.clear();
+
+		map = null;
 		KnToenMap = null;
 		enToKnMap = null;
 		hiToEnMap = null;
