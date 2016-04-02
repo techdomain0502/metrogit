@@ -21,7 +21,7 @@ public class StopListUiActivity extends FragmentActivity {
 
 	private String pathString;
 	private ShareActionProvider mShareActionProvider; 
-	private  TextView station,interchange,time,details,fare;
+	private  TextView station,interchange,time,details,fare,smartFare,distance;
     public static final int UPDATE_HEADER = 0;
     private ProgressBar bar;
     
@@ -36,16 +36,17 @@ public class StopListUiActivity extends FragmentActivity {
             String no = b.getString("station");
             String interchange = b.getString("interchange");
             String time = b.getString("time");
+			String distance = b.getString("distance");
             float fare = b.getFloat("fare");
-        		StopListUiActivity.this.station.setVisibility(View.VISIBLE);
-        		StopListUiActivity.this.interchange.setVisibility(View.VISIBLE);;
-        		StopListUiActivity.this.time.setVisibility(View.VISIBLE);;
-        		StopListUiActivity.this.fare.setVisibility(View.VISIBLE);;
+			String smartfare = String.format("%.02f",0.9f*fare);
         		StopListUiActivity.this.station.setText(String.format(getString(R.string.noOfStations),no));
         		StopListUiActivity.this.interchange.setText(String.format(getString(R.string.noOfInterchange),interchange));
         		StopListUiActivity.this.time.setText(String.format(getString(R.string.journeyTime),time));
-        		StopListUiActivity.this.fare.setText(String.format(getString(R.string.normalfare),fare));
-        		bar.setVisibility(View.GONE);
+			    StopListUiActivity.this.distance.setText(String.format(getString(R.string.distance),distance));
+     			StopListUiActivity.this.fare.setText(String.format(getString(R.string.normalfare),fare));
+     			StopListUiActivity.this.smartFare.setText(String.format(getString(R.string.smartfare),smartfare));
+
+			bar.setVisibility(View.GONE);
         		
         	}
         }	
@@ -63,8 +64,11 @@ public class StopListUiActivity extends FragmentActivity {
 		station = (TextView)findViewById(R.id.station);
 		interchange = (TextView)findViewById(R.id.interchange);
 		time = (TextView)findViewById(R.id.time);
+		distance = (TextView)findViewById(R.id.distance);
 		details=(TextView)findViewById(R.id.details);
 		fare = (TextView)findViewById(R.id.fare);
+		smartFare = (TextView)findViewById(R.id.smartfare);
+
 	    bar = (ProgressBar)findViewById(R.id.progress);
 		Intent i = getIntent();
 		String source = i.getStringExtra("source");

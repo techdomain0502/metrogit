@@ -539,8 +539,8 @@ public class MainTabActivity extends FragmentActivity implements
 		this.mTabHost.clearAllTabs();
 		MainTabActivity.AddTab(this, this.mTabHost,
 				this.mTabHost.newTabSpec("Route").setIndicator(getTabIndicator(mTabHost.getContext(),R.string.tab_route,android.R.drawable.btn_minus)));
-		MainTabActivity.AddTab(this, this.mTabHost,
-				this.mTabHost.newTabSpec("Fare").setIndicator(getTabIndicator(mTabHost.getContext(), R.string.tab_fare, android.R.drawable.btn_minus)));
+		//MainTabActivity.AddTab(this, this.mTabHost,
+		//		this.mTabHost.newTabSpec("Fare").setIndicator(getTabIndicator(mTabHost.getContext(), R.string.tab_fare, android.R.drawable.btn_minus)));
 		MainTabActivity.AddTab(this, this.mTabHost,
 				this.mTabHost.newTabSpec("Timings").setIndicator(getTabIndicator(mTabHost.getContext(), R.string.tab_lasttrain,android.R.drawable.btn_minus)));
 	handle.postDelayed(new Runnable() {

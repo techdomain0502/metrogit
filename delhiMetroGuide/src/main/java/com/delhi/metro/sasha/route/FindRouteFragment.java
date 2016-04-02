@@ -46,6 +46,7 @@ public class FindRouteFragment extends Fragment implements onLanguageChangeListe
     ArrayAdapter<String> dataAdapter;
     private List<String> stationList;
     private ScrollView scroll;
+	private TextView note;
     private TextView header;
     private String[] stationArray;
     private String lang;
@@ -67,8 +68,9 @@ public class FindRouteFragment extends Fragment implements onLanguageChangeListe
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
 		 
    		 lang = pref.getString("language", "en");
-   		 container = (ViewGroup) inflater.inflate(R.layout.find_route_layout,null, false);
+   		 container = (ViewGroup) inflater.inflate(R.layout.find_route_layout, null, false);
 		 header = (TextView)container.findViewById(R.id.header);
+		note = (TextView)container.findViewById(R.id.note);
 		 search1 = (ImageButton)container.findViewById(R.id.searchView1);
 	     search2 = (ImageButton)container.findViewById(R.id.searchView2);
 	     routeButton= (Button)container.findViewById(R.id.routeButton);
@@ -253,6 +255,7 @@ public class FindRouteFragment extends Fragment implements onLanguageChangeListe
              header.setText(getActivity().getResources().getString(R.string.route_details));
 	         routeButton.setText(getActivity().getResources().getString(R.string.show_route));
 	         switchButton.setText(getActivity().getResources().getString(R.string.switch_button));
+		     note.setText(getResources().getString(R.string.smartnote_fare));
 	         spinner1.setText("");
 	         spinner2.setText("");
 	         spinner1.setHint(getActivity().getResources().getString(R.string.source_station));

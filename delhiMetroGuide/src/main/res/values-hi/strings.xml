@@ -15,11 +15,11 @@
       एक दम सही हो. आधार के लिए हमने चुना है:  </string>
     <string name="dedicated2">कोई सुझाव के लिए आप हमें निम्न अड्रेस पर मेल कर सकते है: </string> 
         <string name="programmer">सौरभ, शोभित, सचिन</string>
-    
+    <string name="distance">दूरी:%1s</string>
     <string name="journey_header">यात्रा विवरण:</string>
-    <string name="journeyTime">यात्रा समय: %1s (लगभग.)</string>
-    <string name="noOfStations">स्टेशन: %1s</string>
-    <string name="noOfInterchange">अदला-बदली: %1s</string>
+    <string name="journeyTime">यात्रा समय %1s</string>
+    <string name="noOfStations">स्टेशन:%1s</string>
+    <string name="noOfInterchange">अदला-बदली:%1s</string>
     <string name="enter_station_hint">स्टेशन का नाम डालें</string>
     <string name="language_menu">भाषा</string>
     <string name="language">भाषा</string>

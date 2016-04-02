@@ -40,9 +40,9 @@
     <string name="dedicated1">This app is dedicated to The Almighty,to our parents,to friends.\nWe have tried our level best to keep the data integrity in accordance with Delhi Metro database.\n For reference we have choosen:</string>
     <string name="dedicated2">For suggestions or feedback mail us at:</string>
     <string name="journey_header">Journey Details:</string>
-    <string name="journeyTime">Travel Time: %1s (approx.)</string>
-    <string name="noOfStations">Stations: %1s</string>
-    <string name="noOfInterchange">InterChange: %1s</string>
+    <string name="journeyTime">TripTime:%1s</string>
+    <string name="noOfStations">Stations:%1s</string>
+    <string name="noOfInterchange">InterChange:%1s</string>
     <string name="enter_station_hint">Enter Station name</string>
     <string name="language_menu">Language</string>
     <string name="press_start">Press Start to use Delhi Metro application.</string>
@@ -68,10 +68,11 @@
     <string name="fare_details">Fare Details</string>
     <string name="time_details">First-Last Train Details</string>
     <string name="smartcardFare">Smart Card Fare:Rs 0</string>
+    <string name="distance">Distance:%1s</string>
     <string name="fare_rs_0">NormalFare:Rs 0</string>
     <string name="smartnote_fare">*Note: Use smart card to get 10% discount.</string>
     <string name="normalfare">Normal Fare: Rs %1s</string>
-    <string name="smartfare">SmartCard Fare: Rs %1s</string>
+    <string name="smartfare">Smart Fare: Rs %1s</string>
     <string name="to">to</string>
     <string name="first_time">First Train:NA</string>
     <string name="last_time">Last Train:NA</string>

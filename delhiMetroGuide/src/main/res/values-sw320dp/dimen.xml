@@ -6,7 +6,7 @@
     <dimen name="parking_header_textsize">25dp</dimen>
     <dimen name="parking_content_textsize">19dp</dimen>
     <dimen name="stop_list_below_padding">45dp</dimen>
-    <dimen name="fare_textSize">19dp</dimen>
+    <dimen name="fare_textSize">15dp</dimen>
     <dimen name="note">16dp</dimen>
     <dimen name="fare_view_padding">8dp</dimen>
     <dimen name="tab_dimen_padding">60dp</dimen>

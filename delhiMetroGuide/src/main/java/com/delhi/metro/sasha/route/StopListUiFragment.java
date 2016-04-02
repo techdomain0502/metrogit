@@ -38,6 +38,7 @@ public class StopListUiFragment extends ListFragment {
 	private String noOfInterchange;
 	private String journeyTime;
 	private String noOfStations;
+	private String length;
 	float time;
 	private float routeLength;
 	private float fare;
@@ -183,7 +184,7 @@ public class StopListUiFragment extends ListFragment {
 		  m = time * 60;
 	  }
 		if(time>1){
-			return (int)h+" hour"+" "+(int)m+" min";
+			return (int)h+" hr"+" "+(int)m+" min";
 		}else{
 			return (int)m+" min";
 		}
@@ -257,6 +258,8 @@ public class StopListUiFragment extends ListFragment {
 		protected String doInBackground(Void... params) {
 			if(!Utils.isNullorWhiteSpace(src) && !Utils.isNullorWhiteSpace(dest)) {
 				routeLength = path_fare_calculator.getroute_length();
+				 length = String.format("%.02f", 0.9f * routeLength);
+
                 isRapidRoute = path_fare_calculator.isRapidRoute();
 				fare = new CalculateFare(getActivity()).getFare(routeLength);
 				if(isRapidRoute)
@@ -280,6 +283,7 @@ public class StopListUiFragment extends ListFragment {
 			   b.putString("station", noOfStations);
 			   b.putString("interchange", noOfInterchange);
 			   b.putString("time", String.valueOf(journeyTime));
+			   b.putString("distance",String.valueOf(length+" km"));
 			   b.putFloat("fare", fare);
 			   msg.setData(b);
 			   ((StopListUiActivity)getActivity()).getHandler().sendMessage(msg);
