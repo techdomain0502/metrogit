@@ -258,10 +258,10 @@ public class StopListUiFragment extends ListFragment {
 		protected String doInBackground(Void... params) {
 			if(!Utils.isNullorWhiteSpace(src) && !Utils.isNullorWhiteSpace(dest)) {
 				routeLength = path_fare_calculator.getroute_length();
-				 length = String.format("%.02f", 0.9f * routeLength);
+				 length = String.format("%.02f", routeLength);
 
                 isRapidRoute = path_fare_calculator.isRapidRoute();
-				fare = new CalculateFare(getActivity()).getFare(routeLength);
+				fare = new CalculateFare(getActivity()).getFare(Float.valueOf(length));
 				if(isRapidRoute)
 					fare+=20;  // checking if route contains rapid metro node, then add flat 20Rs.
 
