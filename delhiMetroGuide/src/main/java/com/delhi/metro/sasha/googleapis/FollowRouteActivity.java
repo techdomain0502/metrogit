@@ -1,8 +1,5 @@
 package com.delhi.metro.sasha.googleapis;
 
-import com.delhi.metro.sasha.R;
-import com.delhi.metro.sasha.route.StopListUiFragment;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
@@ -12,6 +9,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
+import com.delhi.metro.sasha.R;
+import com.delhi.metro.sasha.route.StopListUiFragment;
+
+/**
+ * created by me.
+ */
 public class FollowRouteActivity extends FragmentActivity {
 	private String src, dest,place;
     private TextView guideText,header;
